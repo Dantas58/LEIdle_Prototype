@@ -127,7 +127,7 @@ int compare_person(char* name, GHashTable *hash, char *answer_key){
 
     else{
 
-        printf("%s: ", guess->name);
+        //printf("%s: ", guess->name);
 
         if(guess->num < answer->num) printf("Number: %d (+) ", guess->num);
         else if(guess->num > answer->num) printf("Number: %d (-) ", guess->num);

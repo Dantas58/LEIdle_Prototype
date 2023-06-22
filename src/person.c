@@ -59,34 +59,6 @@ void insert_person(Person *p, GHashTable *hash){
 }
 
 
-char* get_name(GHashTable *hash, char* name){
-
-    Person *p = g_hash_table_lookup(hash, name);
-    printf("%s\n", p->name);
-    return p->name;
-}
-
-/*
-int get_num(GHashTable *hash, char* name){
-
-    Person *p = g_hash_table_lookup(hash, name);
-    return p->num;
-}
-
-int get_year(GHashTable *hash, char* name){
-
-    Person *p = g_hash_table_lookup(hash, name);
-    return p->year;
-}
-
-int get_gender(GHashTable *hash, char* name){
-
-    Person *p = g_hash_table_lookup(hash, name);
-    return p->gender;
-}
-*/
-
-
 void fill_hash(GHashTable *hash){
 
     FILE *f;

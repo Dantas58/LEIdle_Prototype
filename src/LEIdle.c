@@ -27,7 +27,7 @@ int main(){
         scanf("%s", guess);
 
         if(!g_hash_table_lookup(hash, guess)){
-            printf("Could'nt find name, try again.\n");
+            printf("Couldn't find name, try again.\n");
             i--;
             continue;
         }
